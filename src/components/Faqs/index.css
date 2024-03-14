@@ -1,0 +1,36 @@
+.bg-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq-container {
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .faq-container {
+    width: 70%;
+    padding: 60px;
+  }
+}
+
+.heading {
+  font-size: 36px;
+  color: #cb8805;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 54px;
+  }
+}
+
+.ul-container {
+  padding-left: 0px;
+}

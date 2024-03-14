@@ -1,0 +1,35 @@
+.li-container {
+  list-style-type: none;
+  border: 1px solid #e4e7eb;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.question-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question {
+  font-size: 24px;
+  color: #52606d;
+  font-family: 'Roboto';
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.hr-line {
+  border: 1px solid #d7dae6;
+}
+
+.answer {
+  font-size: 18px;
+  color: #9aa5b1;
+  font-family: 'Roboto';
+}
